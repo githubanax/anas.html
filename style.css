@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar work */
+nav{
+    background-color: gray;
+    height: 40px;
+}
+nav ul li
+{
+    list-style: none;
+    /* display: inline-block; */
+    float: right;
+    line-height: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+nav ul li a:hover
+{
+    color: orange;
+}
+nav ul li a:visited
+{
+    color: rgb(255, 2, 2);
+}
+/* banner */
+.banner{
+    background: url(1.jfif) rgba(0, 0, 0, 0.3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 700px;
+    width: 100%;
+}
+#banertxt{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+.products
+{
+    display: flex;
+}
+.products .myprod
+{
+    width: 320px;
+    height: auto;
+    /* background-color: aquamarine; */
+    margin-left: 15px;
+    border: 1.5px solid rgb(255, 102, 0);
+    transition: 0.5s;
+}
+.products .myprod:hover
+{
+    border: 6px double rgb(255, 102, 0);
+}
+.container
+{
+    margin: 30px auto;
+    width: 900px;
+}
+.box
+{
+    width: 550px;
+    text-align: center;
+    margin: 40px auto;
+    
+    box-shadow: 0px 0px 15px 10px;
+}
+.btn
+{
+    margin-top: 25px;
+    background-color: rgb(202, 51, 51);
+    height: 40px;
+    width: 130px;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+.btn:hover
+{
+    background-color: white;
+    border: 2px solid rgb(202, 51, 51);
+    color: black;
+}
+.btn2
+{
+    margin-top: 25px;
+    background-color: none;
+    height: 40px;
+    width: 130px;
+    color: black;
+    border: 2px solid rgb(202, 51, 51);
+}
+.btn2:hover
+{
+    margin-top: 25px;
+    background-color: rgb(202, 51, 51);
+    height: 40px;
+    width: 130px;
+    color: white;
+    border: none;
+    border-top-left-radius: 20px;
+}
+.circle
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    background-color: orange;
+    text-align: center;
+}
+.circle img 
+{
+    margin-top: 60px;
+}
+footer
+{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.row
+{
+    display: flex;
+}
+.info
+{
+    width: 300px;
+}
+.info h2 a
+{
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 40px;
+    text-decoration: none;
+}
+.info ul li
+{
+    list-style: none;
+    line-height: 25px;
+}
+.info ul li a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    transition: 0.5s;
+}
+.info ul li a:hover
+{
+    padding-left: 5px;
+}
+.copy
+{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 40px;
+}
